@@ -1,0 +1,27 @@
+.parallax {
+  position: relative;
+  overflow: hidden;
+  /* width: 100%; */
+  min-width: 100%;
+}
+
+.scroller {
+  display: flex;
+  gap: 1rem; /* space between pills */
+  will-change: transform;
+  /* width: 100%; */
+}
+/* .scroller span {
+  flex-shrink: 0;
+} */
+
+/* .scroller span {
+  flex-shrink: 0;
+}
+
+@media (min-width: 768px) {
+  .scroller {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+} */
