@@ -1,0 +1,7 @@
+.trail-img {
+  position: absolute;
+  pointer-events: none;
+  opacity: 0;
+  will-change: transform, opacity;
+  border-radius: 8px;
+}
