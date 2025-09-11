@@ -102,7 +102,9 @@ export const ScrollVelocity = ({
       { clamp: false }
     );
 
-    const copyRef = useRef<HTMLDivElement>(null);
+    const copyRef = useRef<HTMLDivElement>(
+      null
+    ) as React.RefObject<HTMLDivElement>;
     const copyWidth = useElementWidth(copyRef);
     const screenWidth = typeof window !== "undefined" ? window.innerWidth : 0;
 

@@ -99,7 +99,7 @@ export default function ImageTrail({
 
     return () => {
       window.removeEventListener("mousemove", onMouseMove);
-      window.removeEventListener("touchmove", onTouchMove as any);
+      window.removeEventListener("touchmove", onTouchMove);
       // clear any timeouts left
       timeoutsRef.current.forEach((t) => clearTimeout(t));
       timeoutsRef.current.clear();
